@@ -1,0 +1,389 @@
+#header{
+    display:flex;
+    width: 100%;
+            height: auto;
+            margin: 20px;
+            /*padding: 10px;*/
+            /*border: 2px solid black;*/
+            background-color:rgb(199, 188, 220);
+            justify-content: space-between;
+        
+            
+}
+#topnav{
+    display:flex;
+    width: 100%;
+            height: 60px;
+            margin: 20px;
+            /*padding: 10px;*/
+           /* border: 2px solid black;*/
+            /*background-color:rgb(176, 145, 237);*/
+            justify-content: space-between;
+}
+#topnav > div{
+    display:flex;
+    width:40%;
+    height:100%;
+    /* border: 2px solid black; */
+    justify-content: center;
+}
+#topnav > div >div{
+   display:flex;
+    width:30%;
+    height:100%;
+    /* border: 2px solid black; */
+}
+.search{
+    width: 400px;
+    height: 32px;
+    /*margin-left: -100px;*/
+    font-family: "helvetica neue", helvetica, arial, sans-serif;
+    font-size: large;
+    /* margin-left: 40px; */
+    /* margin-top: 20px; */
+    border-radius: 20px;
+    border: 0px;
+    background-color: #eeeeeeea;
+    margin-top: 20px;
+
+}
+#icons > div >img{
+    width:60%;
+    height:40%
+    
+}
+#content{
+    display:flex;
+    width: 100%;
+            height: 40px;
+            margin: 20px;
+            /*padding: 10px;*/
+            /* border: 2px solid black; */
+            /*background-color:rgb(176, 145, 237);*/
+            justify-content:center;
+            /* color: white; */
+}
+#content > div{
+    height:100%;
+    width:10%;
+    /* border: 2px solid black; */
+    background-color: black;
+    color:white;
+}
+#shopnow{
+    display:flex;
+    width: 100%;
+            height: 500px;
+            margin: 20px;
+            /*padding: 10px;*/
+            /* border: 2px solid black; */
+            /*background-color:rgb(176, 145, 237);*/
+            justify-content:center;
+}
+#shopnow > div{
+    width:40%;
+    height:100%;
+    /* border: 2px solid black; */
+}
+
+
+#shopnow > div > div{
+    width:100%;
+    height:30%;
+    /* border: 2px solid black; */
+}
+#shopnow > div > div:nth-child(1){
+    height:70%;
+
+}
+#shopnow > div > div > img
+{height:100%;
+    width:100%;
+    object-fit: cover;
+}
+#choosenforyou{
+    display:flex;
+    width: 100%;
+            height: 280px;
+            margin: 20px;
+            padding: 10px;
+            /* border: 2px solid black; */
+            /*background-color:rgb(176, 145, 237);*/
+            justify-content:center;
+}
+#choosenforyou > div{
+    width:20%;
+    height:100%;
+    /* border: 2px solid black; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+#choosenforyou > div > div{
+    width:100%;
+    height:30%;
+    /* border: 2px solid black; */
+    justify-content:center;
+
+}
+#choosenforyou > div > div:nth-child(1){
+    height:70%;
+}
+#choosenforyou > div:hover{
+        transform: scale(1.2);
+      }
+#newarrival{
+    display:flex;
+    width: 100%;
+            height: 300px;
+            margin: 20px;
+            /*padding: 10px;*/
+            /* border: 2px solid black; */
+            /*background-color:rgb(176, 145, 237);*/
+            justify-content:center;
+}
+#newarrival > div{
+    width:20%;
+    height:100%;
+    /* border: 2px solid black; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+#newarrival > div > div{
+    width:100%;
+    height:30%;
+    /* border: 2px solid black; */
+}
+#newarrival > div > div:nth-child(1){
+    height:70%;
+}
+#newarrival > div:hover{
+        transform: scale(1.2);
+      }
+#shopnow2{
+    display:flex;
+    width: 100%;
+            height: 500px;
+            margin: 20px;
+            /*padding: 10px;*/
+            /* border: 2px solid black; */
+            /*background-color:rgb(176, 145, 237);*/
+            justify-content:center;
+}
+#shopnow2 > div{
+    width:40%;
+    height:100%;
+    /* border: 2px solid black; */
+}
+#shopnow2 > div > div{
+    width:100%;
+    height:30%;
+    /* border: 2px solid black; */
+    justify-content: center;
+}
+#shopnow2 > div > div:nth-child(1){
+    height:70%;
+
+}
+#shopnow2 > div > div > img
+{height:100%;
+    width:100%;
+    object-fit: cover;
+}
+#sellingfast{
+    display:flex;
+    width: 100%;
+            height: 300px;
+            margin: 20px;
+            /*padding: 10px;*/
+            /* border: 2px solid black; */
+            /*background-color:rgb(176, 145, 237);*/
+            justify-content:center;
+}
+#sellingfast > div{
+    width:20%;
+    height:100%;
+    /* border: 2px solid black; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+#sellingfast > div > div{
+    width:100%;
+    height:30%;
+    /* border: 2px solid black; */
+}
+#sellingfast > div > div:nth-child(1){
+    height:70%;
+}
+#sellingfast > div:hover{
+        transform: scale(1.2);
+      }
+#beautyinsider{
+    display:flex;
+    width: 100%;
+            height: 300px;
+            margin: 20px;
+            /*padding: 10px;*/
+            /* border: 2px solid black; */
+            /*background-color:rgb(176, 145, 237);*/
+            justify-content:center;
+}
+#beautyinsider > div{
+    width:20%;
+    height:100%;
+    /* border: 2px solid black; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+#beautyinsider > div > div{
+    width:100%;
+    height:30%;
+    /* border: 2px solid black; */
+}
+#beautyinsider > div > div:nth-child(1){
+    height:70%;
+}
+#beautyinsider > div:hover{
+        transform: scale(1.2);
+      }
+#category{
+    display:flex;
+    width: 100%;
+            height: 150px;
+            margin: 20px;
+            /*padding: 10px;*/
+            /* border: 2px solid black; */
+            /*background-color:rgb(176, 145, 237);*/
+            justify-content:center;
+}
+#category > div{
+    display:flex;
+    height:100%;
+    width:100%;
+    /* border: 2px solid black; */
+    justify-content: space-between;
+}
+
+#category > div > div{
+    height:100%;
+    width:40%;
+    /* border: 2px solid black; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    justify-content: space-between;
+
+}
+#category > div > div:nth-child(2)
+{
+    width:60%;
+}
+#guidance{
+    display:flex;
+    width: 100%;
+            height: 150px;
+            margin: 20px;
+            /*padding: 10px;*/
+            /* border: 2px solid black; */
+            /*background-color:rgb(176, 145, 237);*/
+            justify-content:center;
+}
+#guidance > div{
+    display:flex;
+    height:100%;
+    width:50%;
+    /* border: 2px solid black; */
+    justify-content: space-between;
+}
+
+#guidance > div > div{
+    height:100%;
+    width:30%;
+    /* border: 2px solid black; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+#learnmore{
+    display:flex;
+    width: auto;
+            height: auto;
+            margin: 20px;
+            /*padding: 10px;*/
+            /* border: 2px solid black; */
+            /*background-color:rgb(176, 145, 237);*/
+            justify-content:space-around;
+}
+#learnmore > div{
+    width:auto;
+    height:auto;
+    /* border: 2px solid black; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+#learnmore > div > div{
+    width:100%;
+    height:30%;
+    /* border: 2px solid black; */
+}
+#learnmore > div > div:nth-child(1){
+    height:auto;
+    width:auto;
+
+}
+#footer{
+    
+    width: 100%;
+            height: 1000px;
+            margin: 20px;
+            /*padding: 10px;*/
+            /* border: 2px solid white; */
+            background-color:black;
+            justify-content:center;
+            color:white;
+}
+#footer > div{
+    display:flex;
+    width:100%;
+    height:auto;
+    /* border: 2px solid white; */
+    justify-content: space-between;
+}
+#footer > div > div{
+    width:30%;
+    height:100%;
+    /* border: 2px solid white; */
+}
+#services > div{
+    height:100px;
+    width:30px;
+    color:white;
+}
+.dropbtn{
+        background:black;
+        padding:16px;
+        font-size:16px;
+        border:none;
+        cursor:pointer;
+        width:100%;
+        height:40%;
+        color:white;
+      }
+      .dropdown{ 
+        position:relative;
+        display:contents;
+      }
+      .dropdown-content{
+        display: none;
+  position: absolute;
+  /* background-color: #f1f1f1; */
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+      }
+      .dropdown-content > p{
+        color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+      }
+      .show{display:block;}
+     #social{
+        display:flex;
+     }
